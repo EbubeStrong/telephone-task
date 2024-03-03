@@ -61,8 +61,8 @@ class Telephone{
   const observer2 = new ObservedUser2();
   telephone.addObserver(observer1);
   telephone.addObserver(observer2);
-  telephone.addPhoneNumber('0712345678');
-  telephone.dialPhoneNumber('0712345678');
-  telephone.removePhoneNumber('0712345678');
-  telephone.dialPhoneNumber('0712345678');
+  telephone.addPhoneNumber('0987654321');
+  telephone.dialPhoneNumber('0987654321');
+  telephone.removePhoneNumber('0987654321');
+  telephone.dialPhoneNumber('0987654321');
   telephone.removeObserver(observer1);
